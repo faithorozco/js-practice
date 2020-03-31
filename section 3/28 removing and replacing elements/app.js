@@ -39,5 +39,5 @@ val = link;
 
 //attributes
 val = link.getAttribute('href')
-
+val = link.setAttribute('href', 'http://google.com');
 console.log(val);
